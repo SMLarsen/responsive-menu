@@ -1,5 +1,5 @@
 body {
-  background: RGBA(29, 20, 35, 1);
+  background: #FFB04A;
   font-family: 'Muli';
   -webkit-font-smoothing: antialiased; }
 
@@ -40,6 +40,9 @@ aside {
   opacity: 1;
   visibility: visible; }
 
+.navBarBtn {
+  color: #1E689C; }
+
 nav {
   text-align: center;
   height: 95vh;
@@ -53,13 +56,13 @@ nav {
     nav ul li {
       align-items: center;
       flex: 1;
-      line-height: 20vh; }
+      line-height: 12vh; }
       nav ul li a {
         font-size: 1.5em;
         transition: all 0.5s ease;
         display: block;
         text-decoration: none;
-        color: #ff7070; }
+        color: #ff5c5c; }
         nav ul li a:hover {
           color: #FF3D3D;
           transform: scale(1.1); }
